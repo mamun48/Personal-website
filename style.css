@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+    
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.section{
+   height: 400px;
+   display: flex;
+  padding-bottom:10% ;
+    
+}
+.about{
+    background: url(./images/header-bg.png) no-repeat;
+    background-size:cover ;
+}
+.bio{
+    background: url(./images/biography-bg.png) no-repeat ;
+    background-size: cover;
+}
+.about-me{
+    width: 40%;
+}
+.writing{
+    margin: 5%;
+    padding-top: 5%;
+   
+}
+.name{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: teal;
+    text-transform: uppercase;
+}
+.profile-pic{
+    margin-left: 5%;
+}
+.about-me img{
+    width: 100%;
+}
+.about-me h1{
+padding-bottom: 20px;
+}
+.Biography{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.cv-button{
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    padding: 5px;
+    background: linear-gradient(rgb(3, 240, 252),rgb(3, 152, 252));
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.work{
+    height: 400px;
+    padding-bottom: 10%;
+    background: url(./images/latest-work-bg.png) no-repeat;
+    background-size: cover;
+}
+.work-img{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-right:15%;
+    justify-content: space-between;
+}
+.work-img img{
+    width: 28%;
+    
+}
+.latest-work{
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 5%;
+}
+.fotter{
+    background: url(./images/footer-bg.png) no-repeat;
+    background-size:cover ;
+    height: 400px;
+    padding-bottom: 8%;
+}
+.client-demand{
+    text-align: center;
+    font-size: 35px;
+    margin-top: -5%;
+}
+.bruce{
+    padding-top: 5%;
+    text-align: center;
+}
+.bruce p{
+    padding-top: 10px;
+    font-size: 14px;
+}
+.description p{
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 2%;
+}
+.contract{
+    width: 450px;
+    height: 70px;
+    background: linear-gradient(rgb(3, 240, 252),rgb(3, 152, 252));
+    margin-left: 30%;
+    margin-top: 4%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.copy-right{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5%;
+}
